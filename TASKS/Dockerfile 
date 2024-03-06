@@ -1,0 +1,9 @@
+FROM ubuntu
+
+
+WORKDIR /home/
+
+COPY task2.sh /home/
+
+
+CMD [ "bash","task2.sh" ]
